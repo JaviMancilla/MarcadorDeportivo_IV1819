@@ -15,7 +15,7 @@
 
 - **LENGUAJE** .
 
-    El lenguaje a utilizar para la creación del proyecto sera [*Python*](https://www.python.org/), ya que es un lenguaje de programación orientado a objetos el cual está a la orden del dia y me atreveria a decir que hoy por hoy es el lenguaje más utilizado.
+    El lenguaje a utilizar  la creación del proyecto sera [*Python*](https://www.python.org/), ya que es un lenguaje de programación orientado a objetos el cual está a la orden del dia y me atreveria a decir que hoy por hoy es el lenguaje más utilizado.
 
 
 - **FRAMEWORK**.
