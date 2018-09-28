@@ -20,3 +20,8 @@
 - **FRAMEWORK**.
 
     Como framework, optaré por la utilizacion de [*Hug*](http://www.hug.rest/). *Hug* es una API de desarrollo implementado en Python 3. Es un micro-framework, lo que significa que contiene el menor código e integraciones posibles para que sea totalmente funcional, lo que a su vez proporciona un mayor rendimiento. Este framework fue una recomendación de JJMelero, profesor de la asignatura y anfitrión del Hackatón de diseño dirigido por test de microservicios.
+
+
+- **BASE DE DATOS**.
+
+    Para la creación de la base de datos del proyecto, vamos a utilizar un sistema de gestión de bases de datos como es [*MariaDB*](https://mariadb.org/).
