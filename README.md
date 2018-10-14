@@ -1,6 +1,9 @@
 # MARCADOR DEPORTIVO 
 
-## REPOSITORIO PARA EL PROYECTO DE INFRAESTRUCTURA VIRTUAL (2018)
+# REPOSITORIO PARA EL PROYECTO DE INFRAESTRUCTURA VIRTUAL (2018)
+
+## Nombre del proyecto: Marcador Deportivo.
+## Autor: Javier García Mancilla 
 
 ### DESCRIPCIÓN:
 
@@ -26,3 +29,26 @@
 - **BASE DE DATOS**.
 
     Para la creación de la base de datos del proyecto, vamos a utilizar un sistema de gestión de bases de datos como es [*MariaDB*](https://mariadb.org/).
+
+
+### DESARROLLO DEL PROYECTO:
+
+- **DESCRIPCION DE LA CLASE**
+
+Se ha creado una clase partidos, la cual se encuentra alojada en `/marcador/travistes/marcadorDeportivo.py` y crea un objeto partido a partir de los siguientes atributos: id_partido, jornada, equipo_local, equipo_visitante, fecha, hora, lugar, canalTV.
+
+Dicho esto, en `/marcador/test/test_marcador.py`, se encuentran alojadas las pruebas que hasta ahora hay creadas. Dichas pruebas nos aseguran de cada uno de los atributos del objeto partido son correctos. 
+
+- **INSTALACIÓN Y TESTEO**
+
+Para su instalación lo primero que debemos de hacer es clonar este repositorio:
+
+`git clone https://github.com/JaviMancilla/MarcadorDeportivo_IV1819.git`
+
+Posteriormente debemos instalar *pytest*, ya que se usará para pruebas unitarias:
+
+`pip install pytest`
+
+Por último, a modo local, para comprobar que todo funciona correctamente o ver si algún test no ha pasado la prueba, desde el directorio `/marcador` ejecutamos el comando `pytest`.  
+
+- **INTEGRACIÓN CONTINUA MEDIANTE TRAVIS**
