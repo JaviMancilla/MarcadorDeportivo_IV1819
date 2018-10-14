@@ -5,5 +5,5 @@ setup(
     packages=['travistest'],
     version='1.2',
     description='Hitos del proyecto pasando test con Travis',
-    url='https://github.com/lqdev/TravisTest',    
+    url='https://github.com/JaviMancilla/MarcadorDeportivo_IV1819/tree/master/marcador',    
 )
