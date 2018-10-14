@@ -1,5 +1,5 @@
 sudo: required
-dist: Bionic Beaver
+dist: bionic 
 language: python
 virtualenv:
   system_site_packages: true
