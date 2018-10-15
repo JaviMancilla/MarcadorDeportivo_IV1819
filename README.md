@@ -18,26 +18,26 @@
 
 - **LENGUAJE** .
 
-    El lenguaje a utilizar para la creación del proyecto será [*Python*](https://www.python.org/), ya que es un lenguaje de programación orientado a objetos el cual está a la orden del dia y me atreveria a decir que hoy por hoy es el lenguaje más utilizado.
+    El lenguaje a utilizar para la creación del proyecto será [**Python**](https://www.python.org/), ya que es un lenguaje de programación orientado a objetos el cual está a la orden del dia y me atreveria a decir que hoy por hoy es el lenguaje más utilizado.
 
 
 - **FRAMEWORK**.
 
-    Como framework, optaré por la utilizacion de [*Hug*](http://www.hug.rest/). *Hug* es una API de desarrollo implementada en Python 3. Es un micro-framework, lo que significa que contiene el menor código e integraciones posibles para que sea totalmente funcional, lo que a su vez proporciona un mayor rendimiento. Este framework fue una recomendación de JJMelero, profesor de la asignatura y anfitrión del Hackatón de diseño dirigido por test de microservicios.
+    Como framework, optaré por la utilizacion de [**Hug**](http://www.hug.rest/). *Hug* es una API de desarrollo implementada en Python 3. Es un micro-framework, lo que significa que contiene el menor código e integraciones posibles para que sea totalmente funcional, lo que a su vez proporciona un mayor rendimiento. Este framework fue una recomendación de JJMelero, profesor de la asignatura y anfitrión del Hackatón de diseño dirigido por test de microservicios.
 
 
 - **BASE DE DATOS**.
 
-    Para la creación de la base de datos del proyecto, vamos a utilizar un sistema de gestión de bases de datos como es [*MariaDB*](https://mariadb.org/).
+    Para la creación de la base de datos del proyecto, vamos a utilizar un sistema de gestión de bases de datos como es [**MariaDB**](https://mariadb.org/).
 
 
 ### DESARROLLO DEL PROYECTO:
 
 - **DESCRIPCION DE LA CLASE**
 
-Se ha creado una clase partidos, la cual se encuentra alojada en `/marcador/travistes/marcadorDeportivo.py` y crea un objeto partido a partir de los siguientes atributos: id_partido, jornada, equipo_local, equipo_visitante, fecha, hora, lugar, canalTV.
+Se ha creado una clase partidos, la cual se encuentra alojada en `/travistes/marcadorDeportivo.py` y crea un objeto partido a partir de los siguientes atributos: id_partido, jornada, equipo_local, equipo_visitante, fecha, hora, lugar, canalTV.
 
-Dicho esto, en `/marcador/test/test_marcador.py`, se encuentran alojadas las pruebas que hasta ahora hay creadas. Dichas pruebas nos aseguran de cada uno de los atributos del objeto partido son correctos. 
+Dicho esto, en `/test/test_marcador.py`, se encuentran alojadas las pruebas que hasta ahora hay creadas. Dichas pruebas nos aseguran de cada uno de los atributos del objeto partido son correctos. 
 
 - **INSTALACIÓN Y TESTEO**
 
@@ -52,3 +52,5 @@ Posteriormente debemos instalar *pytest*, ya que se usará para pruebas unitaria
 Por último, a modo local, para comprobar que todo funciona correctamente o ver si algún test no ha pasado la prueba, desde el directorio `/marcador` ejecutamos el comando `pytest`.  
 
 - **INTEGRACIÓN CONTINUA MEDIANTE TRAVIS**
+
+Tras habernos dado de alta en [**Travis**](https://travis-ci.org) con nuestra cuenta de **github** y sincronizando nuestro proyecto, obtenemos el resultado de la prueba: [![](https://travis-ci.com/JaviMancilla/MarcadorDeportivo_IV1819.svg?branch=master)](https://travis-ci.com/JaviMancilla/MarcadorDeportivo_IV1819/jobs/151697325)
