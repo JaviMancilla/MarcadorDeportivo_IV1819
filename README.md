@@ -1,7 +1,5 @@
 # MARCADOR DEPORTIVO 
 
-[![](https://travis-ci.com/JaviMancilla/MarcadorDeportivo_IV1819.svg?branch=master)](https://travis-ci.com/JaviMancilla/MarcadorDeportivo_IV1819/jobs/151697325)
-
 # REPOSITORIO PARA EL PROYECTO DE INFRAESTRUCTURA VIRTUAL (2018)
 
 ## Nombre del proyecto: Marcador Deportivo.
@@ -55,4 +53,4 @@ Por último, a modo local, para comprobar que todo funciona correctamente o ver 
 
 - **INTEGRACIÓN CONTINUA MEDIANTE TRAVIS**
 
-Tras habernos dado de alta en [**Travis**](https://travis-ci.org) con nuestra cuenta de **github** y sincronizando nuestro proyecto. [![](https://travis-ci.com/JaviMancilla/MarcadorDeportivo_IV1819.svg?branch=master)](https://travis-ci.com/JaviMancilla/MarcadorDeportivo_IV1819/jobs/151697325)
+Tras habernos dado de alta en [**Travis**](https://travis-ci.org) con nuestra cuenta de **github** y sincronizando nuestro proyecto. Los resultados son los siguientes: [![Build Status](https://travis-ci.org/JaviMancilla/MarcadorDeportivo_IV1819.svg?branch=master)](https://travis-ci.org/JaviMancilla/MarcadorDeportivo_IV1819)
