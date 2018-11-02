@@ -6,7 +6,9 @@ from pytest import fixture
 
 def op():
     from travistest.marcadorDeportivo import Partido
-    return Partido(1, 1,"Real Madrid", "Barcelona", datetime.date(2018, 10, 28), datetime.time (18, 00) , "Santiago Bernabeu", "Movistar")
+    partido = Partido()
+    partido.partidosArg(1, 1,"Real Madrid", "Barcelona", datetime.date(2018, 10, 28), datetime.time (18, 00) , "Santiago Bernabeu", "Movistar")
+    return partido
 
 def test_jornada(op):
     assert op.comprobar_jornada()
