@@ -1,7 +1,9 @@
 import datetime
 
 class Partido:
-    def __init__(self, id_partido, jornada, equipo_local, 
+
+    @classmethod
+    def partidosArg(self, id_partido, jornada, equipo_local, 
                  equipo_visitante, fecha, hora, lugar, canalTV):
 
         self.id_partido = id_partido
@@ -12,6 +14,27 @@ class Partido:
         self.hora = hora
         self.lugar = lugar
         self.canalTV = canalTV
+
+    @classmethod
+    def partidos(self):
+
+        self.id_partido = None
+        self.jornada = None
+        self.equipo_local = None
+        self.equipo_visitante = None
+        self.fecha = None
+        self.hora = None
+        self.lugar = None
+        self.canalTV = None
+
+    def status(self):
+        """
+        Retorna el estado de la clase
+
+        Returns:
+        string: return OK
+        """
+        return "OK"
 
     def comprobar_jornada(self):
         return isinstance(self.jornada, int)
