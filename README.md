@@ -59,6 +59,6 @@ Tras habernos dado de alta en [**Travis**](https://travis-ci.org) con nuestra cu
 
 Una vez que nos hayamos registrado en [**Heroku**](https://id.heroku.com/login) y haber realizado los pasos para desplegar nuestra aplicación, podemos ver el resultado del despliegue en el siguiente enlace:
 
-     [**Despliegue**](https://marcadordeportivo.herokuapp.com/)
-     
-     Configuración del despliegue [**aquí**]()
+[**Despliegue**](https://marcadordeportivo.herokuapp.com/)
+
+Configuración del despliegue [**aquí**]()
