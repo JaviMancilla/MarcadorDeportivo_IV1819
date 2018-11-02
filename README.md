@@ -54,3 +54,10 @@ Por último, a modo local, para comprobar que todo funciona correctamente o ver 
 - **INTEGRACIÓN CONTINUA MEDIANTE TRAVIS**
 
 Tras habernos dado de alta en [**Travis**](https://travis-ci.org) con nuestra cuenta de **github** y sincronizando nuestro proyecto. Los resultados son los siguientes: [![Build Status](https://travis-ci.org/JaviMancilla/MarcadorDeportivo_IV1819.svg?branch=master)](https://travis-ci.org/JaviMancilla/MarcadorDeportivo_IV1819)
+
+- **DESPLIEGUE MEDIANTE HEROKU**
+
+Una vez que nos hayamos registrado en [**Heroku**](https://id.heroku.com/login) y haber realizado los pasos para desplegar nuestra aplicación, podemos ver el resultado del despliegue en el siguiente enlace:
+
+- [**Despliegue**](https://marcadordeportivo.herokuapp.com/)
+- Configuración del despliegue [**aquí**]()
