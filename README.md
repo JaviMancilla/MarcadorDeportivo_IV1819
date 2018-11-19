@@ -39,6 +39,8 @@ Se ha creado una clase partidos, la cual se encuentra alojada en `/travistes/mar
 
 Dicho esto, en `/test/test_marcador.py`, se encuentran alojadas las pruebas que hasta ahora hay creadas. Dichas pruebas nos aseguran de cada uno de los atributos del objeto partido son correctos. 
 
+-------------------------------------------------------------
+
 - **INSTALACIÓN Y TESTEO**
 
 Para su instalación lo primero que debemos de hacer es clonar este repositorio:
@@ -51,9 +53,13 @@ Posteriormente debemos instalar *pytest*, ya que se usará para pruebas unitaria
 
 Por último, a modo local, para comprobar que todo funciona correctamente o ver si algún test no ha pasado la prueba, desde el directorio `/marcador` ejecutamos el comando `pytest`.  
 
+-------------------------------------------------------------
+
 - **INTEGRACIÓN CONTINUA MEDIANTE TRAVIS**
 
 Tras habernos dado de alta en [**Travis**](https://travis-ci.org) con nuestra cuenta de **github** y sincronizando nuestro proyecto. Los resultados son los siguientes: [![Build Status](https://travis-ci.org/JaviMancilla/MarcadorDeportivo_IV1819.svg?branch=master)](https://travis-ci.org/JaviMancilla/MarcadorDeportivo_IV1819)
+
+-------------------------------------------------------------
 
 - **DESPLIEGUE MEDIANTE HEROKU**
 
@@ -61,3 +67,17 @@ Una vez que nos hayamos registrado en [**Heroku**](https://id.heroku.com/login) 
 
 + [**Despliegue**](https://marcadordeportivo.herokuapp.com/)
 + Configuración del despliegue [**aquí**](https://github.com/JaviMancilla/MarcadorDeportivo_IV1819/blob/master/doc/DespliegueHeroku.md)
+
+-------------------------------------------------------------
+
+- **DESPLIEGUE DE CONTENEDORES**
+
++ Documentación Docker[aquí](https://github.com/JaviMancilla/MarcadorDeportivo_IV1819/blob/master/doc/DocDocker.md)
+
++ Enlace a DockerHub: [MarcadorDeportivo-DockerHub](https://hub.docker.com/r/jmanci/marcadordeportivo_iv1819/)
++ Documentación DockerHub [aquí](https://github.com/JaviMancilla/MarcadorDeportivo_IV1819/blob/master/doc/DocDockerHub.md)
+
++ Contenedor:
++ Documentación Contenedor Heroku [aquí]()
+
+
