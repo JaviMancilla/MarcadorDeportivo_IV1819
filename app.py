@@ -7,7 +7,7 @@ from travistest.marcadorDeportivo import Partido
 @hug.get('/')
 def prueba():
 
-    resp = {"STATUS":"OK"}
+    resp = {"STATUS":"Ok"}
 
     return resp
 
