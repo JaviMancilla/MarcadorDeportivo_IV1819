@@ -72,12 +72,13 @@ Una vez que nos hayamos registrado en [**Heroku**](https://id.heroku.com/login) 
 
 - **DESPLIEGUE DE CONTENEDORES**
 
-+ Documentación Docker[aquí](https://github.com/JaviMancilla/MarcadorDeportivo_IV1819/blob/master/doc/DocDocker.md)
++ Documentación Docker [aquí](https://github.com/JaviMancilla/MarcadorDeportivo_IV1819/blob/master/doc/DocDocker.md)
 
 + Enlace a DockerHub: [MarcadorDeportivo-DockerHub](https://hub.docker.com/r/jmanci/marcadordeportivo_iv1819/)
 + Documentación DockerHub [aquí](https://github.com/JaviMancilla/MarcadorDeportivo_IV1819/blob/master/doc/DocDockerHub.md)
 
 + Contenedor:[https://marcador-deportivo-docker.herokuapp.com/status](https://marcador-deportivo-docker.herokuapp.com/status)
-+ Documentación Contenedor Heroku [aquí]()
+
++ Documentación Contenedor Heroku [aquí](https://github.com/JaviMancilla/MarcadorDeportivo_IV1819/blob/master/doc/DocHerokuDocker.md)
 
 
