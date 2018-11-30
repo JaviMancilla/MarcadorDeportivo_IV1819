@@ -1,4 +1,4 @@
-## DESPLIEGUE EN HEROKU
+# DESPLIEGUE EN HEROKU
 
 Para la configuración del despliegue en **Heroku**, hemos seguido los pasos de este tutorial que nos proporciona la propia página de este y que añadimos a continuación:
 

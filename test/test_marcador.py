@@ -5,7 +5,7 @@ from pytest import fixture
 @fixture
 
 def op():
-    from travistest.marcadorDeportivo import Partido
+    from src.marcadorDeportivo import Partido
     partido = Partido()
     partido.partidosArg(1, 1,"Real Madrid", "Barcelona", datetime.date(2018, 10, 28), datetime.time (18, 00) , "Santiago Bernabeu", "Movistar")
     return partido
