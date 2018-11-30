@@ -1,5 +1,5 @@
 {
-    "status": "Okey",
+    "status": "ok",
     "ejemplo": {"ruta": "/ruta/parametro",
                 "valor": "{JSON devuelto}"
                }
