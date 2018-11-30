@@ -7,7 +7,7 @@ from src.marcadorDeportivo import Partido
 @hug.get('/')
 def prueba():
 
-    resp = {"STATUS":"Ok"}
+    resp = {"STATUS":"Okey"}
 
     return resp
 
