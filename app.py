@@ -1,7 +1,7 @@
 import hug
 import json
 
-from travistest.marcadorDeportivo import Partido
+from src.marcadorDeportivo import Partido
 
 
 @hug.get('/')
