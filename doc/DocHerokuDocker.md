@@ -19,24 +19,31 @@ Para el despliegue del contenedor en Heroku, hemos modificado el *Dockerfile* co
 
 ~~~
 
-# Use an official Python runtime as a parent image
+
+# Creamos una capa a partir de la imagen de python:3.6-slim
 FROM python:3.6-slim
 
-# Set the working directory to /app
+# Establecemos el directorio de trabajo en /app
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
-COPY . /app
+# Copiamos/descargamos los archivos necesarios para el despliegue de nuesta aplicacion en local
+COPY ./src/ /app/src 
+COPY ./requirements.txt /app
+COPY ./app.py /app
+COPY ./status.json /app
 
-# Install any needed packages specified in requirements.txt
+
+# Instalamos las dependencias necesarias indicadas en el archivo requirements-txt
+
 RUN pip install --trusted-host pypi.python.org -r requirements.txt
 
-# Make port 80 available to the world outside this container
+# Habilitamos el puerto 80 para poder acceder desde fuera
 EXPOSE 80
 
 
-# Run app.py when the container launches
+# Lanzamos app.py con los siguientes requisitos
 CMD gunicorn app:__hug_wsgi__ --log-file -
+
 
 ~~~
 
