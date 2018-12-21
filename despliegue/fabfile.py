@@ -6,7 +6,7 @@ from fabric.api import *
 def ActualizarServicio():
 
     # Descartamos la version anterior de la aplicación
-    run('rm -rf MarcadorDeportivo_IV1819')
+    run('sudo rm -rf MarcadorDeportivo_IV1819')
 
     # Actualizamos a la nueva versión descargando el repositorio
     run('git clone https://github.com/JaviMancilla/MarcadorDeportivo_IV1819.git')
