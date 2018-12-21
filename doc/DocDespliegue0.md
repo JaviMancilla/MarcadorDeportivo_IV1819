@@ -214,6 +214,8 @@ Visto que todo funciona como se esperaba, podemos apagar la máquina virtual.
 
 Para la automatización del despligue se hace necesario construir un archivo python basado en la herramienta **Fabric**. Dicho archivo, denominado *fabfile.py* nos permite usar ordenes de manera automatica a traves de ssh.
 
+La información asociada a **Fabric** ha sido consultada desde [aquí](http://docs.fabfile.org/en/1.14/index.html).
+
 El archivo *fabfile.py* contiene lo siguiente:
 
 ~~~
