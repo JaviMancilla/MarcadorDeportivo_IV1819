@@ -246,5 +246,7 @@ Podemos observar que he definido una serie de funciones que llevan a cabo difere
 
 Para llevar a cabo alguna de la funcioón especificada en el archivo la orden será la siguiente:
 
+~~~
 fab -f despliegue/fabfile.py -H vagrant@marcador-deportivo-18-19.westeurope.cloudapp.azure.com "nombre_funcion"
+~~~
 
