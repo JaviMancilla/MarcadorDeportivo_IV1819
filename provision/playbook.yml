@@ -1,0 +1,33 @@
+- hosts: all
+  sudo: yes
+  remote_user: javimancilla
+
+  tasks:
+  - name: Añadir repositorio de python 3.6
+    become: true
+    apt_repository: repo=ppa:deadsnakes/ppa state=present
+
+  - name: Actualizar sistema
+    become: true
+    command: sudo apt-get update
+
+  - name: Instalar Python 3.6
+    become: true
+    apt: pkg=python3.6 state=present
+
+  - name: Cambio version de python
+    command: sudo ln -sfn /usr/bin/python3.6 /usr/bin/python
+
+  - name: Instalacion de pip3
+    become: true
+    command: sudo apt-get -y install python3-pip
+
+  - name: Instalar GitHub
+    become: true
+    command: sudo apt-get install -y git
+
+  - name: Clonar repositorio de GitHub
+    git: repo=https://github.com/JaviMancilla/MarcadorDeportivo_IV1819.git dest=marcadordeportivo/ force=yes
+
+  - name: Instalar Requerimientos
+    command: pip3 install -r marcadordeportivo/requirements.txt
